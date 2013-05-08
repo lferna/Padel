@@ -1,0 +1,66 @@
+	#contenido {
+	background:#FFFFFF;
+	}
+	
+		#contenedorcuadro {
+		padding:10px;
+	}
+	#contenido table {
+		float: left;
+		width: 970px;
+		margin-bottom: 15px;
+	}
+	#contenido table th {
+		background: #575757;
+		color: #FFF;
+		padding-left: 3px;
+	}
+	#contenido table td {
+		font-size: 11px;
+		border-bottom: 1px dotted #CCC;
+		padding-left: 3px;
+		line-height:25px;
+	}
+	#contenido table td.nombre {
+		width: 100px;
+	}
+	#contenido table td.gris {
+		background: #EEE;
+	}
+	#contenido table td.resultado {
+		text-align: center;
+		width: 14px;
+		background: #EEE;
+		padding-left: 0;
+	}
+	#contenido table td.resultado2 {
+		text-align: center;
+		width: 14px;
+		padding-left: 0;
+	}
+	.verde {
+		color: #80A929;
+		font-weight: bold;
+	}
+	
+		h4.cintillo {
+		height:16px;
+}
+
+#contenido .ganador {
+		background-color: #b0d898;
+	
+	}
+	
+	h4.cintillo span{
+
+float:left;
+text-transform:none;
+}
+
+	h4.cintillo span.nombre{
+
+float:left;
+text-transform:none;
+margin-top:2px;
+}

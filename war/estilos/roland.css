@@ -1,0 +1,1660 @@
+@charset "utf-8";
+@import url("../../../../css/comunes.css");
+/* CSS Document */
+
+
+a{ color:#073D5C; text-decoration:none;}
+.limpiar{clear:both}
+#contenido{ clear:both; width:990px; margin:0 auto; padding-top: 24px; background:#fff url(http://php.marca.com/iconos/v1.x/v1.0/1px_fnd_estaticas.gif) repeat-y;}
+.col_izq { float: left; padding:24px 10px; text-align:left; width:630px;}
+.col_der { float: left; padding:24px 10px; text-align:left; width:320px;}
+
+#equipos .linkEquipo {
+	text-align: center;
+	float: left;
+	width: 150px;
+	height: 115px;
+	font-size: 11px;
+	padding-top: 5px;
+}
+#equipos .linkEquipo a {
+	text-align: center;
+	float: left;
+	width: 120px;
+	height: 115px;
+	font-size: 11px;
+	padding-top: 5px;
+}
+#equipos .linkEquipo a:hover {
+	text-align: center;
+	float: left;
+	width: 120px;
+	height: 105px;
+	font-size: 11px;
+	background: #EEE;
+	text-decoration: none;
+	padding-top: 5px;
+}
+ 
+#equipos img { 
+border:1px solid #E8E8E8;
+padding:4px;
+}
+
+/*NavegaciÃ³n Escudos*/
+.nav_escudos{clear:both;margin-bottom:15px; width:320px;}
+.nav_escudos ul.estirar{width:320px; border-bottom:3px solid #DFD5C6; padding:3px 2px !important; padding:3px 0;}
+.nav_escudos ul.estirar li{display:inline; float:left;width:32px; height:32px;} 
+.nav_escudos ul.estirar li a:hover img{ background:transparent url(http://php.marca.com/iconos/v1.x/v1.0/escudos_over.gif) 0 0 no-repeat;}
+.nav_escudos ul.estirar li a img{ height:28px;}
+
+.camaraacb {background:transparent url(../../Copia%20de%202010/img/fondo_camara.jpg) no-repeat scroll 0 0;font-size:11px;height:86px;padding:10px 0 0 108px;}
+.camaraacb h4 {font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:bold;}
+.camaraacb p {border-bottom:1px solid #916C00;color:#916C00;font-family:Arial,Helvetica,sans-serif;font-size:10px;margin-top:3px;width:200px;}
+.camaraacb ul li {color:#003366;margin-top:4px;width:200px;}
+
+
+/*Clasificacion*/
+#acbResultadosJornada table {
+	width: 100%;
+	margin-bottom: 20px;
+}
+#acbClasificacionCompleta th {
+	text-align: center;
+	height: 25px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #666;
+	background-color: #DFD5C6;
+ 
+}
+#acbResultadosJornada td {
+	height: 25px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: normal;
+	border-bottom: 1px solid #ccc;
+}
+#acbResultadosJornada td b,
+#acbResultadosJornada td strong {
+	font-weight: bold;
+	color: #D5A239;
+}
+#acbResultadosJornada td a {
+	font-weight: bold;
+	color: #D5A239;
+	text-decoration: none;
+}
+#acbClasificacionCompleta table {
+	width: 100%;
+	margin-bottom: 20px;
+}
+#acbClasificacionCompleta th {
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	border-bottom: 1px solid #ccc;
+}
+#acbClasificacionCompleta td {
+	padding-left: 5px;
+	height: 25px;
+	text-align: left;
+	font-size: 13px;
+	font-weight: normal;
+	border-bottom: 1px solid #ccc;
+}
+#acbClasificacionCompleta th.topTabla {
+	text-align: center !important;
+	font-size: 13px !important;
+	font-weight: bold !important;
+	color: #666 !important;
+	background-color: #DFD5C6 !important;
+	 
+}
+#acbClasificacionCompleta td.topTabla {
+	padding-left: 5px !important;
+	text-align: left !important;
+	font-size: 13px !important;
+	font-weight: bold !important;
+	color: #666 !important;
+	background-color: #DFD5C6 !important;
+ 
+}
+#acbVirtualJornadas table {
+	width: 100%;
+	margin-bottom: 20px;
+	clear:both;
+}
+#acbVirtualJornadas th {
+	text-align: center;
+	height: 25px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #666;
+	background-color: #DFD5C6;
+ 
+}
+#acbVirtualJornadas td {
+	height: 25px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	border: 1px solid #ccc;
+}
+
+
+/*Balonmano*/ span.titulo {
+	
+	font-family: Arial;
+	font-size: 34px;
+    color:#000;
+} img.sinborde {
+	border: 0;
+	padding: 0 0 0 3px;
+} div.plantilla {
+	margin-top: 15px;
+} div.plantilla h4 {
+	color: #FFF;
+	font-size: 12px;
+	font-weight: bold;
+	width: 630px;
+	height: 19px;
+	background: url(/deporte/balonmano/img/fnd_menu.jpg);
+	padding-top: 1px;
+	margin-bottom: 5px;
+	text-align: left;
+} div.plantilla table.plantilla {
+	border-collapse: separate;
+	border-spacing: 2px;
+	width: 630px;
+	text-align: center;
+	font-size: 12px;
+	font-family: Arial;
+
+    
+	
+} div.plantilla table.plantilla th {
+	border-bottom: 0;
+
+} div.plantilla table.plantilla td {
+	height: 23px;
+	text-align:center;
+} div.plantilla table.plantilla td.nombre, div.plantilla table.plantilla th.nombre  {
+	text-align: left;
+	padding-left: 4px;
+} div.plantilla table.plantilla tr.impar {
+	background: #EBEBE0;
+}
+
+ div#contenido div#nombre-equipo {
+	height: 71px;
+	border-bottom: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+	background: #EBEBE0;
+}	
+ div#contenido div#nombre-equipo img {
+	float: left;
+	margin-right: 8px;
+	padding: 0 3px 0 0;
+	background: #FFF;
+}	
+ div#contenido div#nombre-equipo h3 {
+	color: #333;
+	font-size: 26px;
+	padding: 5px 0;
+}	
+
+/*ARCHIVO BALONMANO*/
+
+h4.cintillo {
+background-color:#DFD5C6;
+color:#666666;
+font-family:Tahoma,Arial;
+font-size:11px;
+font-weight:bold;
+margin-bottom:1px;
+padding:5px;
+text-transform:uppercase;
+}
+
+h4.cintillo span {
+text-transform:lowercase;
+}
+
+.col_der {
+background-color:#FFFFFF;
+float:left;
+padding:24px 10px;
+text-align:left;
+width:320px;
+}
+
+.archivoBloque {
+border-bottom:1px solid #E9E9E9;
+margin-top:-1px;
+padding-bottom:19px;
+float:left;
+width:210px;
+}
+
+
+.estirar {
+display:block;
+}
+.archivoBloque h5 { color:#666666; font-size:18px; margin-top:5px;}
+.archivoBloque p { color:#073D5C; font-size:12px; }
+.archivoBloque img {}
+.archivoBloque a {color:#073D5C;}
+
+/*buscador*/
+.buscador-interior {
+background:#EDEBDE url(http://www.marca.com/buscador/imgs/fnd_buscador_interior.gif) no-repeat scroll left top;
+border-bottom:3px solid #666666;
+border-top:1px dotted #666666;
+margin-bottom:15px;
+padding:5px 0;
+}
+
+.buscador-interior p {
+font-family:Arial,Helvetica,sans-serif;
+font-size:12px;
+margin-top:2px;
+padding-left:80px;
+position:relative;
+}
+
+
+.buscador-interior p input {
+border:1px solid #333333;
+float:left;
+font-family:Arial,Helvetica,sans-serif;
+font-size:12px;
+margin:5px 8px 0 0;
+padding-left:3px;
+_margin-bottom:11px;
+}
+
+.buscador-interior p .boton_buscar {
+float:left;
+}
+
+.buscador-interior p .boton_buscar input {
+border:0 none;
+}
+
+
+	.asobalclasif td {
+		border-bottom: #CCC 1px dotted;
+	}
+	.asobalclasif {
+		font-family: "Trebuchet MS" , sans-serif;
+		font-size: 13px;
+		width: 100%;
+	}
+	.asobalclasif th {
+	background-color:#DFD5C6;
+color:#666;
+font-size:14px;
+text-align:center;
+}
+	 
+	.asobalclasif td {
+		text-align: center;
+	}
+	.equipo {
+		text-align: left;
+	}
+
+
+
+	.asobal td {
+		border-bottom: #CCC 1px dotted;
+	}
+	.asobal {
+		font-family: "Trebuchet MS" , sans-serif;
+		font-size: 13px;
+		width: 590px;
+	}
+	.jornada {
+		font-size: 15px;
+		background-color: #666;
+		color: #FFF;
+	}
+	.resultado {
+		font-weight: bold;
+		text-align: center;
+	}
+	.resultado a {
+		text-decoration: none;
+		color:#073D5C;
+	}
+	.resultado a:hover {
+		text-decoration: underline;
+	}
+	.equipo1 {
+		text-align: right;
+	}
+
+.indicecalasobal {
+	width: 195px;
+	text-align: center;
+	float:left;
+	margin-left:10px;
+	border-spacing:2px;
+	border-collapse:separate;
+	
+}
+.indicecalasobal td {
+	
+	font-weight: bold; font-size:12px;
+
+}
+
+.indicecalasobal td.impar {
+	
+	font-weight: bold;
+	background-color: #EBEBE0 ;
+}
+
+.indicecalasobal td.jornada {
+	
+	font-weight: bold;
+	background-color:#EEEEEE;
+	color:#666666;
+}
+.indicecalasobal td a {
+	font-weight: normal;
+	background:transparent none repeat scroll 0% 0%;
+color:#9F9F9F;
+text-decoration:none;
+}
+.indicecalasobal th {
+	background: url(/deporte/balonmano/img/fnd_menu.jpg);
+	color:#cccccc;
+}
+ .indicecalasobal a {
+color: #003366;
+text-decoration:none;
+}
+
+
+
+ #acbClasificacionCompleta  table.resultados { 
+float:left;
+margin-right:5px;
+width:310px;_width:300px;
+}
+
+#acbClasificacionCompleta  table.resultados caption {color:#333;
+background-color:#DFD5C6;
+font-size:12px;
+font-weight:bold;
+height:19px;
+margin-bottom:5px;
+padding-top:1px;
+text-align:left;
+width:310px;_width:300px;
+}
+
+/* Calendario */
+
+
+
+div#calendario {
+  width: 592px;
+  height: 500px;
+  padding-top:10px;
+  margin-left:5px;
+}
+
+div#calendar_meses {
+  float:left;
+  height: 45px;
+  padding-left:130px;
+}
+
+.txt_mes {
+  float:left;
+  width: 325px;
+  height: 45px;
+  background: url(http://www.marca.com/deporte/balonmano/mundial/2010/img/fnd_txt_mes.jpg) repeat-x  ;
+  text-align:center;
+}
+
+div#calendario div#calendar_meses .txt_mes h3{
+padding-top:6px;
+font-size:27px;
+color:#5b604a;
+   
+}
+
+
+/* menu meses izquierda */
+
+div#calendario div#calendar_meses .flecha_izq {
+	width: 28px;
+	height: 45px;
+	background:url(http://www.marca.com/deporte/balonmano/mundial/2010/img/fnd_flecha_izq.jpg);
+	float:left;
+	margin-right:5px;
+}
+
+
+div#calendario div#calendar_meses .flecha_izq ul li {
+	display: inline;
+}
+div#calendario div#calendar_meses .flecha_izq ul li a {
+	display: block;
+	width: 28px;
+	height: 45px;
+	background:url(http://www.marca.com/deporte/balonmano/mundial/2010/img/fnd_flecha_izq.jpg);
+	float: left;
+}
+div#calendario div#calendar_meses .flecha_izq ul li a:hover {
+	display: block;
+	width: 28px;
+	height: 45px;
+	background:url(http://www.marca.com/deporte/balonmano/mundial/2010/img/fnd_flecha_izq2.jpg);
+	float: left;
+}
+
+div#calendario div#calendar_meses .flecha_izq ul li a span {
+	position: absolute;
+	top: -10000px;
+}
+
+
+
+
+/* menu meses derecha */
+
+div#calendario div#calendar_meses .flecha_der {
+	width: 28px;
+	height: 45px;
+	background:url(http://www.marca.com/deporte/balonmano/mundial/2010/img/fnd_flecha_der.jpg);
+	float:left;
+	margin-left:5px;
+}
+
+
+div#calendario div#calendar_meses .flecha_der ul li {
+	display: inline;
+}
+div#calendario div#calendar_meses .flecha_der ul li a {
+	display: block;
+	width: 28px;
+	height: 45px;
+	background:url(http://www.marca.com/deporte/balonmano/mundial/2010/img/fnd_flecha_der.jpg);
+	float: left;
+}
+div#calendario div#calendar_meses .flecha_der ul li a:hover {
+	display: block;
+	width: 28px;
+	height: 45px;
+	background:url(http://www.marca.com/deporte/balonmano/mundial/2010/img/fnd_flecha_der2.jpg);
+	float: left;
+}
+
+div#calendario div#calendar_meses .flecha_der ul li a span {
+	position: absolute;
+	top: -10000px;
+}
+
+
+div#calendar_dias {
+ margin-top:5px;
+
+}
+
+
+
+/* dÃ­as */
+
+
+.dia_txt {
+width:77px;
+height:20px;
+/*border-bottom: #999999 1px solid;*/
+float:left;
+margin-left: 5px;
+margin-top: 5px;
+text-align:center;
+font-size:11px;
+color:#999999;
+
+}
+
+.dia {
+width:75px;
+height:75px;
+border: #999999 1px solid;
+float:left;
+margin-left: 5px;
+margin-top: 5px;
+
+}
+
+.dia2 {
+width:75px;
+height:75px;
+border: #cccccc 1px solid;
+float:left;
+margin-left: 5px;
+margin-top: 5px;
+
+}
+
+.dia3 {
+width:75px;
+height:75px;
+border: #cc0000 1px solid;
+float:left;
+margin-left: 5px;
+margin-top: 5px;
+
+}
+
+.diaFoto {
+width:75px;
+height:75px;
+border: #cc0000 1px solid;
+float:left;
+margin-left: 5px;
+margin-top: 5px;
+
+}
+
+.opaco {
+width:75px;
+height:75px;
+border: #cccccc 1px solid;
+float:left;
+margin-left: 5px;
+margin-top: 5px;
+
+}
+
+.diaFoto a:hover{
+
+opacity:0.6;
+filter: alpha(opacity=60);
+
+}
+
+div#calendario div#calendar_dias .dia img{
+border:0px;
+padding:0px;
+
+}
+
+div#calendario div#calendar_dias .dia3 img{
+border:0px;
+padding:0px;
+
+}
+
+div#calendario div#calendar_dias .diaFoto img{
+border:0px;
+padding:0px;
+
+}
+
+
+.negroDia {
+color:#000000;
+font-size:18px;
+font-size-adjust:none;
+font-weight:bold;
+padding-left:5px;
+padding-top:1px;
+position:absolute;
+text-align:left;
+vertical-align:top;
+z-index:2;
+}
+
+.blancoDia {
+color:#FFFFFF;
+font-size:18px;
+font-size-adjust:none;
+font-stretch:normal;
+font-style:normal;
+font-variant:normal;
+font-weight:bold;
+line-height:normal;
+padding-left:4px;
+padding-top:0px;
+position:absolute;
+text-align:left;
+vertical-align:top;
+z-index:3;
+}
+
+.grisDia {
+color:#cccccc;
+font-size:18px;
+font-size-adjust:none;
+font-stretch:normal;
+font-style:normal;
+font-variant:normal;
+font-weight:bold;
+line-height:normal;
+padding-left:4px;
+padding-top:0px;
+position:absolute;
+text-align:left;
+vertical-align:top;
+z-index:3;
+}
+
+.imagen {
+
+border:0px;
+position:absolute;
+z-index:1;
+
+}
+ 
+/* tablas calendarios */
+
+div#contenido #CalendarioResultados table.clasificacion {
+border-collapse:separate;
+border-spacing:2px;
+}
+
+div#contenido #CalendarioResultados table {
+color:#333333;
+margin-bottom:15px;
+width:630px;
+}
+
+div#contenido #CalendarioResultados table.clasificacion th.nombregrupo {
+font-size:15px;
+text-align:left;
+}
+
+div#contenido #CalendarioResultados table.clasificacion th {
+background:#EEEEEE none repeat scroll 0%;
+border-bottom:0pt none;
+color:#333333;
+font-size:12px;
+height:23px;
+padding-bottom:0pt;
+padding-left:3px;
+text-align:center;
+}
+
+div#contenido #CalendarioResultados table.clasificacion td.nombre {
+text-align:left;
+width:245px;
+}
+div#contenido #CalendarioResultados table.clasificacion td {
+height:23px;
+width:50px;
+}
+
+div#contenido #CalendarioResultados table.clasificacion td img{
+border:0px;
+}
+div#contenido #CalendarioResultados table td {
+border-bottom:0pt none;
+font-size:12px;
+font-weight:normal;
+padding-left:3px;
+text-align:center;
+}
+
+#CalendarioResultados table.clasificacion tr.impar {
+background:#EBEBE0 none repeat scroll 0%;
+}
+
+div#contenido #CalendarioResultados table.resultados {
+float:left;
+margin-right:5px;
+width:310px;
+}
+
+div#contenido #CalendarioResultados table.resultados3 {
+float:left;
+margin-right:5px;
+width:310px;
+}
+
+div#contenido #CalendarioResultados table {
+color:#333333;
+margin-bottom:15px;
+width:630px;
+}
+
+div#contenido #CalendarioResultados table.resultados caption {
+background:transparent url(/deporte/balonmano/mundial/2010/img/fnd_menu.jpg) repeat scroll 0%;
+color:#FFFFFF;
+font-size:12px;
+font-weight:bold;
+height:19px;
+margin-bottom:5px;
+padding-top:1px;
+text-align:left;
+width:310px;
+}
+
+div#contenido #CalendarioResultados table.resultados2 caption {
+background:transparent url(/deporte/balonmano/mundial/2010/img/fnd_menu.jpg) repeat scroll 0%;
+color:#FFFFFF;
+font-size:12px;
+font-weight:bold;
+height:19px;
+margin-bottom:5px;
+padding-top:1px;
+text-align:left;
+width:630px;
+}
+
+div#contenido #CalendarioResultados table.resultados3 caption {
+color:#000000;
+font-size:12px;
+font-weight:bold;
+height:19px;
+margin-bottom:5px;
+padding-top:1px;
+text-align:left;
+width:310px;
+border-bottom:1px dotted #CCCCCC;
+}
+
+div#contenido #CalendarioResultados table.resultados caption img {
+border:0pt none;
+padding:0pt 0pt 0pt 3px;
+}
+
+div#contenido #CalendarioResultados table.resultados2 caption img {
+border:0pt none;
+padding:0pt 0pt 0pt 3px;
+}
+
+div#contenido #CalendarioResultados table.resultados3 caption img {
+border:0pt none;
+padding:0pt 0pt 0pt 3px;
+}
+
+
+
+div#contenido #CalendarioResultados table.resultados td {
+border-bottom:1px solid #CCCCCC;
+line-height:29px;
+text-align:left;
+}
+
+div#contenido #CalendarioResultados table.resultados3 td {
+border-bottom:1px solid #CCCCCC;
+line-height:29px;
+text-align:left;
+}
+
+div#contenido #CalendarioResultados table.resultados td img{
+border:0px;
+}
+
+div#contenido #CalendarioResultados table.resultados3 td img{
+border:0px;
+}
+
+div#contenido #CalendarioResultados table td {
+border-bottom:0pt none;
+font-size:12px;
+font-weight:normal;
+padding-left:3px;
+text-align:center;
+}
+
+
+/* sedes */
+
+div#contenido p {
+color:#333333;
+font-size:0.9em;
+line-height:18px;
+}
+
+	div#contenido div.sede {
+		background: #EEE;
+		border: 1px solid #CCC;
+		width: 300px;
+		height: 115px;
+		float: left;
+		margin: 0 12px 12px 0;
+	}
+	* html div#contenido div.sede {
+		margin: 0 12px 0 0;
+	}
+	*:first-child+html div#contenido div.sede {
+		margin: 0 12px 0 0;
+	}
+	div#contenido div.sede h4 {
+		background: #666;
+		height: 20px;
+		color: #FFF;
+		padding: 0 0 0 5px;
+		font-size: 14px;
+	}
+	div#contenido div.sede p {
+		padding: 3px 5px;
+		font-size: 11px;
+	}
+	
+	
+	/* directos */
+
+div#panelDatos caption{display: none; padding: 0; margin: 0}	
+legend, hr {display: none; padding: 0; margin: 0}
+fieldset {width: auto; padding: 0;margin: 0;border: none}
+abbr, acronym { border-bottom: 1px dotted #f00; cursor: help}
+a img { border: 0}
+.cero { margin:0; padding:0}
+
+
+
+
+div#panelDatos {
+	margin-top: 2px;
+	width: 990px;
+	margin-bottom: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	border-top: #f2f2f2 3px solid;
+	padding-top: 2px;
+	clear:both;
+	margin-top:-17px;
+}
+
+div#marcadorPartido { width: 647px; height: 60px; float: left}
+table#elMarcador { width: 647px; height: 60px; background: transparent url(/deporte/balonmano/mundial/2010/img/elMarcadorFnd.gif) repeat-x}
+tr#marcStatus td {height: 22px;}
+tr#marcResultados td {height: 38px; }
+
+tr#marcStatus td.equipo { color: #333; font-size: 0.75em; font-weight: bold; margin: 2px 5px 0 0; text-transform: uppercase }
+.local { text-align: right; padding-right: 10px} .visitante {text-align: left; padding-left: 10px}
+tr#marcStatus td p.tiempoPartido { color: #fff; text-align: center; font-size: 0.75em; font-weight: bold; text-transform: uppercase }
+tr#marcStatus td p.tiempoPartido sup { font-size: 0.75em; text-transform: lowercase}
+
+tr#marcResultados td.equipoNombre { width: 213px;}
+tr td.escudos { width: 50px; text-align:center;}
+
+tr td.escudos img{ margin-top:20px;}
+tr#marcResultados td.equipoNombre p { font-size: 1.4em; color: #fff; letter-spacing: -0.03em; font-weight: bold; margin: 0}
+tr#marcResultados td.resultado p { font-size: 1.4em; color: #fff; letter-spacing: -0.03em; font-weight: bold; margin: 0; text-align: center}
+tr#marcResultados td.resultado { width: 56px}
+td.separa { width: 2px; background-color: #fff}
+
+div#infoEvento { width: 309px; height: 30px; padding: 28px 5px 2px 27px; float: left; margin-left: 2px; background: #E2E2DB url(/deporte/balonmano/mundial/2010/img/infoEvento_fnd.gif) no-repeat}
+div#equipo { width: 638px; float: left; margin-top: 2px}
+div#infoExtrasPartido {width: 332px; float: left; margin: 1px 0 0 2px}
+div#suplentes {width: 638px; float: left;}
+div#otrosDirectos {width: 332px; float: left; margin-left: 2px}
+
+div#areaMarca { width: 990px; height: 58px; margin-bottom: 1px; clear: left; margin-top: 20px; border-bottom: 10px solid #f0f1ea}
+div#areaMarca #redactores { width: 638px; float: left; height: 54px; background: transparent url(/deporte/balonmano/mundial/2010/img/areaMarca_fnd.gif) repeat-x; border-bottom: #999 4px solid;}
+div#areaMarca #redactores span { width: 75px; margin-top: 1px; height: 52px; display: block; float: left}
+div#areaMarca #redactores p { float: left; width: 150px; color: #999; font-size: 0.70em; line-height: 1.10em; margin: 27px 0 0 10px}
+div#areaMarca #redactores span.tuComentas { margin-left: 190px; width: 52px;}
+div#contenidoGeneral { width: 990px; height: 720px; background: transparent url(/paginas-interiores/imgs/comunes/fondo-global-noticias.gif) top right repeat-y}
+
+div#areaMarca #ahoraMarca { width: 350px; float:left; margin-left: 2px; height: 54px; background: transparent url(/deporte/balonmano/mundial/2010/img/areaMarca_fnd.gif) repeat-x; border-bottom: #f00 4px solid;}
+
+
+/*Inicio Tablas equipo*/
+table#enJuegoTit   { font-size: 0.70em; color: #333; border-bottom: #fff 1px solid; width: 648px; height: 22px; background: #c1c1c1 url(/deporte/balonmano/mundial/2010/img/enJuegoTit_fnd.gif) top center no-repeat}
+table#suplentesTit { font-size: 0.70em; color: #333; border-bottom: #fff 1px solid; width: 638px; height: 22px; background: #c1c1c1 url(/deporte/balonmano/mundial/2010/img/suplentesTit_fnd.gif) top center no-repeat; margin-top: 2px;}
+
+table#enJuegoTit a, 	  table#suplentesTit a       { color: #333; font-weight: bold}
+table#enJuegoTit a:hover, table#suplentesTit a:hover { color: #000 }
+
+table#enJuegoTit td.clicTit p, table#suplentesTit td.clicTit p { text-align: center; text-transform: uppercase; font-weight: bold}
+table#enJuegoTit td, table#suplentesTit td { width: 264px;}
+table#enJuegoTit td.clicTit, table#suplentesTit td.clicTit { width: 110px}
+
+table.jugadores { width: 638px; margin-bottom: 1px;}
+table.jugadores td p.dorsalNombreCont { margin-left: 10px}
+table.jugadores .headerEnJuego { background-color: #dad9c4; border-bottom: #fff 1px solid; }
+table.jugadores .alter { background-color: #e3e4de;}
+table.jugadores .headerEnJuego p { text-transform: uppercase; color: #fff; font-weight: bold; font-size: 0.75em}
+table.jugadores .headerEnJuego .dorsalNombre { width: 198px; height: 20px; padding-left: 10px}
+table.jugadores .headerEnJuego .faltas { width: 54px;}
+table.jugadores .headerEnJuego .puntos { width: 54px;}
+table.jugadores .fila { height: 20px; border-left: #fff 1px solid;}
+table.jugadores .fila p { text-align: center}
+table.jugadores .separa { width: 2px; background-color: #fff}
+table.jugadores p { color: #666; font-size: 0.70em; }
+table.jugadores { background-color: #d8dad0}
+.equipo th p { text-align: center}
+
+#jugadoresSuplentes, #otrosDirectosContenido {display:none;}
+.BorderJugadores { border-bottom: #d8dad0 3px solid;}
+
+.clicAbre { padding: 0 10px; background: transparent url(/deporte/balonmano/mundial/2010/img/icoRecogido.gif) center right no-repeat;}
+.clicCierra { padding: 0 10px; background: transparent url(/deporte/balonmano/mundial/2010/img/icoDesplegado.gif) center right no-repeat;}
+/*fin Tablas equipo*/
+
+div#infoEvento p { font-size: .70em; margin: 0; float: left; padding: 0; width: 185px; line-height:14px;}
+div#infoEvento #divActualizarBtn         { float:right; width: 102px; height: 24px; margin: 2px 2px 0 0}
+div#infoEvento #divActualizarBtn a       { display: block; background: transparent url(/deporte/balonmano/mundial/2010/img/actualizarBtn.jpg) no-repeat; width: 102px; height: 24px; text-indent: -999em}
+div#infoEvento #divActualizarBtn a:hover { background: transparent url(/deporte/balonmano/mundial/2010/img/actualizarBtn.jpg) 0 -24px no-repeat;}
+
+
+/*Inicio TABS extrasInfo*/
+@media projection, screen {.tabs-hide {display: none;}}
+@media print {.tabs-nav {display: none;}}
+
+/* Skin tabs */
+.tabs-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 1px 0;
+	background-color: #fff !important;
+	height: 19px;
+	border-bottom: #c2c2c2 2px solid
+}
+.tabs-nav:after { /* clearing IE */
+    display: block;
+    clear: both;
+    content: " ";
+}
+.tabs-nav li {
+    float: left;
+    margin: 0;
+    min-width: 84px; /*Opera */
+}
+.tabs-nav a, .tabs-nav a span {
+    display: block;
+    padding: 0 20px 0 10px;
+    background: url(/deporte/balonmano/mundial/2010/img/tab.png) no-repeat;
+}
+.tabs-nav a {
+    position: relative;
+	text-transform: uppercase;
+    top: 1px;
+    z-index: 2;
+    padding-left: 0;
+    color: #999;
+	font-weight: bold !important;
+	font: 0.70em Arial, Helvetica, sans-serif;
+    line-height: 0.9em;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap; /*IE6*/    
+}
+.tabs-nav .tabs-selected a {
+    color: #333;
+}
+.tabs-nav .tabs-selected a, .tabs-nav a:hover, .tabs-nav a:focus, .tabs-nav a:active {
+    background-position: 100% -150px;
+	color: #333;
+    outline: 0; /* prevent dotted border in Firefox */
+}
+.tabs-nav a, .tabs-nav .tabs-disabled a:hover, .tabs-nav .tabs-disabled a:focus, .tabs-nav .tabs-disabled a:active {
+    background-position: 100% -100px;
+}
+.tabs-nav a span {
+    width: 64px; /* IE 6 treats width as min-width */
+    min-width: 64px;
+    height: 13px; /* IE 6 treats height as min-height */
+    min-height: 13px;
+    padding-top: 6px;
+    padding-right: 0;
+}
+*>.tabs-nav a span { /* hide from IE 6 */
+    width: auto;
+    height: auto;
+}
+.tabs-nav .tabs-selected a span {
+    padding-top: 6px;
+}
+.tabs-nav .tabs-selected a span, .tabs-nav a:hover span, .tabs-nav a:focus span, .tabs-nav a:active span {
+    background-position: 0 -50px;
+}
+.tabs-nav a span, .tabs-nav .tabs-disabled a:hover span, .tabs-nav .tabs-disabled a:focus span, .tabs-nav .tabs-disabled a:active span {
+    background-position: 0 0;
+}
+.tabs-nav .tabs-selected a:link, .tabs-nav .tabs-selected a:visited, .tabs-nav .tabs-disabled a:link, .tabs-nav .tabs-disabled a:visited { /* @ Opera, use pseudo classes otherwise it confuses cursor... */
+    cursor: text;
+}
+.tabs-nav a:hover, .tabs-nav a:focus, .tabs-nav a:active { /*Opera*/
+    cursor: pointer;
+}
+.tabs-nav .tabs-disabled {
+    opacity: .4;
+}
+#fragment-1, #fragment-2, #fragment-3 { clear: both; margin-top: 1px; height:124px; min-height: 124px; overflow: auto}
+#fragment-2 p, #fragment-3 p { padding: 15px 10px 5px 15px; font-size: .75em; color: #333}
+.tabs-container {
+    padding:0;
+    background-color: #dad9c4 !important; /* declare background color for container to avoid distorted fonts in IE while fading */
+}
+/*fin TABS extrasInfo*/
+
+div#otrosDirectosTit { font-size: 0.70em; color: #333; width: 332px; height: 21px; background: #c1c1c1 url(/deporte/balonmano/mundial/2010/img/suplentesTit_fnd.gif) -300px 0 no-repeat; margin: 2px 0 1px 0;}
+div#otrosDirectosTit p { text-transform: uppercase; font-weight: bold; padding: 3px 0 0 10px}
+
+div#otrosDirectosTit a  	 { color: #333; font-weight: bold; margin: 2px 0 0 0}
+div#otrosDirectosTit a:hover { color: #000 }
+
+div#otrosDirectosContenido { background-color: #DAD9C4 }
+
+.ulParciales { width: auto;}
+.ulParciales li { border-bottom: #f1f0e6 1px dotted; color: #333; font-size: .70em; display: block; padding: 6px 3px 6px 46px; margin: 0}
+.ulParciales li.primerC  { background: transparent url(/deporte/balonmano/mundial/2010/img/primerC.gif) 28px center no-repeat;}
+.ulParciales li.segundoC { background: transparent url(/deporte/balonmano/mundial/2010/img/segundoC.gif) 28px center no-repeat;}
+.ulParciales li.tercerC  { background: transparent url(/deporte/balonmano/mundial/2010/img/tercerC.gif) 28px center no-repeat;}
+.ulParciales li.cuartoC  { background: transparent url(/deporte/balonmano/mundial/2010/img/cuartoC.gif) 28px center no-repeat;}
+.ulParciales li.sinDatos { opacity:0.4;}
+
+.ulDirectos { width: auto;}
+.ulDirectos li { border-bottom: #f1f0e6 1px dotted; color: #333; font-size: .70em; display: block; padding: 6px 3px 6px 28px; margin: 0}
+.ulDirectos li a { color: #333; text-decoration: underline;}
+.ulDirectos li a:hover { color: #333; text-decoration: none;}
+
+
+
+/*AJUSTES IE6*/
+* html .tabs-nav { /* auto clear */
+    display: inline-block;
+}
+* html .tabs-nav .tabs-disabled {
+    position: relative; /* fixes opacity */
+    filter: alpha(opacity=40);
+}
+* html .tabs-nav .tabs-disabled a span {
+    height: 19px; /* for some reason the height is 1px to less with opacity... */
+    min-height: 19px; /* ...in both IE 6 and 7 */
+}
+
+/*retransmision */
+
+
+body#marcadores div#contenido {
+	float: left;
+	margin-right: 10px;
+	padding: 0px 0 0px 0;
+	width: 580px;
+	font-size: 12px;
+}
+
+body#marcadores div#columna2 { width:350px;}
+
+.comentario_tecnico {
+border:1px solid #CCCCCC ;
+color:#333333;
+font-size:12px;
+height:550px;
+overflow:auto;
+width:350px;
+margin-bottom:15px;
+float:left;
+margin-top:2px;
+}
+.img_cabMarcador img{
+
+margin-top:15px;
+margin-left:0px;
+}
+
+.estadisticas_equipos {
+
+float:left;
+}
+
+.tabla {cellpadding:1px;width:590px;}
+
+.tabla img {}
+
+.tabla_comentario {padding:1px;width:630px;margin:0px;}
+
+.equipo1 { background:url(/balonmano/2008/copa_rey/img/fnd_marcador.gif) repeat;  height:52px;  width:250px; align:right;}
+
+.equipo1 p{font-family:Arial, Helvetica, sans-serif;font-size:25px;letter-spacing:-1px; text-align:center;text-transform:uppercase;float:left; width:160px; padding-top:14px;}
+
+.equipo1 strong {font-weight:bold;font-size:16px; color:#000; }
+
+.equipo1 img {border:0px; float:right; margin-left:0px; margin-right:1px;}
+
+
+.equipo2 {background:url(/balonmano/2008/copa_rey/img/fnd_marcador.gif) repeat;  height:52px;  width:250px;}
+
+.equipo2 p{font-family:Arial, Helvetica, sans-serif;font-size:25px;letter-spacing:-1px; float:right;text-align:center;text-transform:uppercase;  width:160px; padding-top:14px;}
+
+.equipo2 strong {font-weight:bold;font-size:16px; color:#000; }
+
+.equipo2 img {float:left; border:0px; margin-left:1px;}
+
+
+
+.bola {position:relative;float:left;width:41px;}
+
+.cuarto {font-family:Arial, Helvetica, sans-serif;font-size:13px;background-color:#f7f7f7;text-align:center;width:45px; color:#666;}
+
+
+
+.titulo_cuarto {background-color:#e7e7e7;color:#666;text-align:center;font-size:10px;font-family:Verdana, Arial, Helvetica, sans-serif;line-height:18px;}
+
+
+
+.fecha {background-color:#fff;color:#333;width:580px;text-align:right;margin-top:0px;}
+
+body#marcadores div#contenedor .fecha p {font-size:11px;font:12px Arial, Verdana Helvetica, sans-serif;float:left;}
+.fecha img {float:left;margin-top:10px;}
+
+.estado {border:1px solid #DDDECE;font:13px Arial, Verdana Helvetica; color:#999;float:left;padding-right:10px;}
+
+.estado strong{margin-left:10px;letter-spacing:0px;padding:10px 2px 2px 0;text-align:left;float:left;font-weight:bold;}
+
+.estado img {flot:left;}
+
+
+.marcador {background-color:#666;font-family:Arial, Helvetica, sans-serif;font-size:32px;letter-spacing:-1px;text-align:center;color:#fff;font-weight:bold;padding:5px;width:35px;}
+
+.cuarto_ganado {font-family:Arial, Helvetica, sans-serif;font-size:45px;letter-spacing:-2px;background-color:#ccc;font-weight:bold;text-align:center;width:60px;}
+
+
+
+.comentarista  {font:11px Arial, Helvetica, sans-serif;color:#333;background-color:#dddece;width:597px;border-top:1px solid #D3D0BF; border-left:1px solid #D3D0BF; border-right:1px solid #D3D0BF;}
+
+.comentarista img {float:left; margin-left:5px;}
+
+.comentarista span{float:left;font-size:12px;padding:10px 0 0 10px;}
+
+.comentarista span strong{font-size:15px;color:#666;	}
+
+.hora {font-family:Arial, Helvetica, sans-serif;font-size:20px;letter-spacing:-1px;background-color:#e7e7e7; padding:5px;border-bottom:1px solid #fff;color:#666;width:60px;text-align:center;}
+
+.comentario {font-family:Arial, Helvetica, sans-serif;font-size:13px;background-color:#eee; padding:8px;border-left:2px solid #666;border-bottom:1px solid #fff;font-weight:normal;text-align:left;line-height:18px;}
+
+
+
+
+
+
+.especial {background-color:#666;color:#CCCCCC;text-align:center;padding:3px 0;border-bottom:5px solid #fff;}
+
+
+
+
+
+.directo {margin-bottom:20px;padding:5px 0;border-bottom:1px solid #333; border-top:1px solid #333; height:28px;width:320px;}
+
+.directo a{font:11px Arial, Helvetica, sans-serif;padding-left:5px;color:#900;font-weight:bold;float:left;}
+
+
+
+.directo img {float:left;width:112px;}
+
+
+
+.estadisticas {width:100%;margin:0 0 20px 1px;}
+
+div#columna2 table.estadisticas { border-collapse:collapse;}
+
+.estadisticas th {font:13px Arial, Helvetica, sans-serif;background-color:#eee;padding:4px;border:1px solid #ccc; }
+
+.estadisticas th a{font-weight:bold; color:#990000;}
+
+.estadisticas td a{font-weight:bold; color:#990000;}
+
+.estadisticas th a:hover {text-decoration:underline;}
+.estadisticas td {font:11px Arial, Helvetica, sans-serif; padding:5px 0 ;background-color:#e7e7e7;text-align:center;width:33%;border:1px solid #ccc;}
+
+.estadisticas table strong {font:12px Arial, Helvetica, sans-serif;padding:4px;}
+
+
+
+ /* marcador*/
+
+ 
+
+ #marcador {
+
+ height:630px;
+
+ }
+
+ 
+
+
+
+
+
+
+#contendido #estiloResultado table {
+
+	width: 310px;
+
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+}
+
+
+
+#contendido td.equipo {
+
+	width: 42%;
+
+	padding-top: 1px;
+
+	padding-bottom: 2px;
+
+	text-align: left;
+
+	font-size: 11px;
+
+	font-weight: normal;
+
+	color: #336699;
+
+	border-bottom: 1px dashed #862C00;
+
+}
+
+#contendido td.goles {
+
+	width: 16%;
+
+	text-align: center;
+
+	font-size: 11px;
+
+	font-weight: bold;
+
+	color: #fff;
+
+	background: white url(/futbol/copauefa0607/final/imgs/marcador_fondo.gif) bottom left repeat-x;
+
+}
+
+
+
+#contendido #estiloResultado table {
+
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+	border-bottom: 2px solid #aaa;
+
+}
+
+#contendido #estiloResultado th {
+
+	width: 40%;
+
+	text-align: center;
+
+	font-size: 10px;
+
+	font-weight: bold;
+
+	color: #ffffff;
+
+	background: white url(/futbol/copauefa0607/final/imgs/marcador_fondo.gif) bottom left repeat-x;
+
+}
+
+#contendido #estiloResultado td {
+
+	text-align: center;
+
+	font-size: 11px;
+
+	font-weight: normal;
+
+	color: #862C00;
+
+	border-bottom: 1px dashed #ccc;
+
+}
+
+#contendido #estiloResultado td a {
+
+	font-size: 11px;
+
+	font-weight: bold;
+
+	color: #862C00;
+
+	text-decoration: none;
+
+}
+
+#contendido #estiloResultado td a:hover {
+
+	font-size: 11px;
+
+	font-weight: bold;
+
+	color: #862C00;
+
+	text-decoration: underline;
+
+}
+
+#contendido #estiloResultado td.goles {
+
+	width: 10%;
+
+	text-align: center;
+
+	font-size: 18px;
+
+	font-weight: bold;
+
+	background: none !important;
+
+	background-color: #336699 !important;
+
+	color: #fff;
+
+	border-bottom: 1px solid #000099;
+
+}
+
+#contendido #estiloResultado p.menuPartido {
+
+	width: 250px;
+
+	border-top: 1px solid #ccc;
+
+	padding-left: 2px;
+
+	margin-bottom: 5px;
+
+	text-align: left;
+
+	font-size: 11px;
+
+	color: #aaa;
+
+}
+
+#contendido #estiloResultado p.menuPartido a {
+
+	font-size: 11px;
+
+	font-weight: bold;
+
+	color: #336699;
+
+	text-decoration: none;
+
+}
+
+
+
+#contendidoComentarios {
+
+	position: absolute !important;
+
+	top: 150px !important;
+
+	width: 600px !important;
+
+	height: 420px !important;
+
+	overflow: auto !important;
+
+	margin-bottom: 1em !important;
+
+	padding-left: 10px !important;
+
+}
+
+#contendidoComentarios h5 {
+
+	margin: 0 !important;
+
+	margin-top: 10px !important;
+
+	width: 95% !important;
+
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif !important;
+
+	font-size: 12px !important;
+
+	color: #336699 !important;
+
+	border-bottom: 2px solid #336699 !important;
+
+}
+
+#estiloComentario table {
+
+	width: 92% !important;
+
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif !important;
+
+}
+
+#estiloComentario th {
+
+	width: 10% !important;
+
+	padding: 3px !important;
+
+	text-align: center !important;
+
+	font-size: 11px !important;
+
+	font-weight: bold !important;
+
+	color: #336699 !important;
+
+	border-right: 1px dashed #ccc !important;
+
+	border-bottom: 1px solid #336699 !important;
+
+}
+
+#estiloComentario td {
+
+	width: 90% !important;
+
+	padding: 3px !important;
+
+	text-align: left !important;
+
+	font-size: 11px !important;
+
+	font-weight: normal !important;
+
+	border-bottom: 1px solid #336699 !important;
+
+}
+
+#estiloComentario td b,
+
+#contendidoComentarios #estiloComentario td strong {
+
+	font-weight: bold !important;
+
+color: #336699 !important;
+
+}
+
+
+
+#estiloComentario td.partido {
+
+	padding-left: 5px !important;
+
+	text-align: left !important;
+
+	font-size: 12px !important;
+
+	font-weight: bold !important;
+
+	color: #a00 !important;
+
+background: white url(/futbol/copauefa0607/final/imgs/marcador_fondo.gif) top left repeat-x !important;
+
+	border-bottom: 1px solid #336699 !important;
+
+}
+
+
+
+.comentario_tecnico { font-size:12px;}
+
+.comentario_tecnico th{ width:15%; background:#999999; color:#FFFFFF; font-size:12px;}
+.comentario_tecnico td{ width:85%; border-bottom:1px #CCCCCC solid; color:#666666; padding:5px; font-size:12px;}
+
+.fecha {margin-bottom:5px; }
+
+
+div#contenido .fecha {
+border-bottom:0px;
+font-family:Arial,Helvetica,sans-serif;
+font-size:13px;
+font-size-adjust:none;
+font-stretch:normal;
+font-style:normal;
+font-variant:normal;
+font-weight:bold;
+line-height:normal;
+margin-bottom:0px;
+}
+
+.ficha_jugador {
+float:left;
+vertical-align:top;
+width:480px;
+font-size:13px;
+line-height:15px;
+
+}
+.ficha_jugador table {padding:0px; margin:0px;}
+
+.ficha_jugador img{border:1px solid #333;
+padding:1px;}
+
+.ficha_jugador h3 {font-size:25px;
+font-weight:bold;
+letter-spacing:-2px;
+margin-bottom:10px;
+border-bottom:2px solid #ccc;
+margin-left:10px;
+line-height:26px;}
+
+.ficha_jugador p {margin-left:10px;
+font-size:12px;
+display:block;}
+
+
+
+#menuAlbumFotos {
+font-size: 12px;color:#878743;
+float:left;
+width:100px;
+margin-right:25px;
+
+
+}
+
+#menuAlbumFotos ul{
+width:100px;
+float:left;
+}
+
+#menuAlbumFotos ul li { 
+
+margin-bottom:2px;
+display:block;
+background-color:#D2D6C9;
+width:120px;
+}
+
+#menuAlbumFotos ul li a{
+color:#333;
+padding:3px 0px 3px 3px;
+background-color:#D2D6C9;
+border-left:2px solid #333;
+text-decoration:none;
+display:block;
+
+}
+
+#menuAlbumFotos ul li a:hover{
+color:#fff;
+background-color:#333;
+padding:3px 0px 3px 3px;
+text-decoration:none;
+border-left:2px solid #333;
+display:block;
+}
+
+p.comentarioMarca { font-size:11px; margin-top:10px; margin-left:0px; display:block;}
+
+
+
+.menu-clasificacion_2 {
+border-bottom:1px solid #CCCCCC;
+height:21px;
+margin-left:0px;
+width:622px;
+}
+
+.menu-clasificacion_2 .enlace_1_2_select {
+background:#666666 none repeat scroll 0 0;
+border-right:2px solid #FFFFFF;
+color:#FFFFFF;
+float:left;
+height:20px;
+text-align:center;
+width:309px;
+}
+.menu-clasificacion_2 .enlace_2_2_select {
+background:#666666 none repeat scroll 0 0;
+border-right:2px solid #FFFFFF;
+color:#FFFFFF;
+float:left;
+height:20px;
+text-align:center;
+width:309px;
+}
+
+.menu-clasificacion_2 a {
+color:#FFFFFF;
+font-weight:bold;
+text-decoration:none;
+}
+.menu-clasificacion_2 .enlace_2_2 {
+background:#CCCCCC none repeat scroll 0 0;
+border-right:2px solid #FFFFFF;
+float:left;
+height:20px;
+text-align:center;
+width:309px;
+}
+.menu-clasificacion_2 .enlace_1_2 {
+background:#CCCCCC none repeat scroll 0 0;
+border-right:2px solid #FFFFFF;
+float:left;
+height:20px;
+text-align:center;
+width:309px;
+}
+
+#contenido table.palmares {
+		width: 620px;
+		margin: 0;
+		padding: 0;
+		margin-bottom: 15px;
+		text-align: center;
+	}
+	#contenido table.palmares th {
+		background:#666;
+		color:#FFF;
+		font-size:14px;
+		font-weight:bold;
+		padding:2px 0pt 2px 3px;
+	}
+	#contenido table.palmares tr.impar {
+		background: #EBEBE0;
+	}
+	#contenido table.palmares td {
+		font-size: 12px;
+		height:25px;
+	}

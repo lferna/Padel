@@ -1,0 +1,95 @@
+body {
+	margin: 8px;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #FFF;
+
+}
+a {
+	text-decoration: none;
+	color: #036;
+}
+a:hover {
+	text-decoration: underline;
+}
+ul {
+	list-style: none;
+}
+img {
+	border: 0;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.celdaInformacion {
+  background: white;
+  border: 1px solid #FFF;
+  border-left-color: #CCC;
+  width: 25%;
+}
+
+.tablaGeneral {
+	width: 100%;
+}
+
+.columnaIzquierda {
+	width: 75%;
+}
+
+.leyenda{
+    font-size: 12px;
+	font-weight:bold;
+	letter-spacing:1px;
+}
+
+.nombreUsuario{
+	font: bold 10px/22px Verdana, Arial, Helvetica, sans-serif;
+	color: green;	
+	padding-right:20px;
+	padding-left:20px;
+	width: 100%;
+	text-align: right;
+}	
+
+div#piePagina {
+	width: 100%;
+	background: #EEE;
+	border: 1px solid #FFF;
+  border-top-color: #CCC;
+}
+
+div#datosResultados{
+	width: 60%;
+	margin-top: 20px;
+}
+
+div#filtrosBusqueda{
+	width: 95%;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border: 2px solid #EEE;
+}
+
+div#filtrosBusqueda table{
+  font-weight:bold;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  width: 90%;
+  margin-top: 20px;
+}
+
+h3.clasificacion {
+	font-size: 24px;
+	color: #666;
+	border-bottom: 1px solid #666;
+	padding-bottom: 3px;
+	margin-left: 5px;
+}
+
+
+div#nuevaNoticia{
+	width: 90%;
+	margin-top: 20px;
+}

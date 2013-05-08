@@ -1,0 +1,591 @@
+body {
+	margin: 8px;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #FFF;
+
+}
+a {
+	text-decoration: none;
+	color: #036;
+}
+a:hover {
+	text-decoration: underline;
+}
+ul {
+	list-style: none;
+}
+img {
+	border: 0;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.celdaInformacion {
+  background: white;
+	border: 1px solid #FFF;
+  border-left-color: #CCC;
+  width: 25%;
+}
+
+.tablaGeneral {
+	width: 100%;
+}
+
+.columnaIzquierda {
+	width: 75%;
+}
+
+.leyenda{
+    font-size: 12px;
+	font-weight:bold;
+	letter-spacing:1px;
+}
+
+.nombreUsuario{
+	font: bold 10px/22px Verdana, Arial, Helvetica, sans-serif;
+	color: green;	
+	padding-right:20px;
+	padding-left:20px;
+	width: 100%;
+	text-align: right;
+}	
+
+div#piePagina {
+	width: 100%;
+	background: #EEE;
+	border: 1px solid #FFF;
+  border-top-color: #CCC;
+}
+
+div#datosResultados{
+	width: 60%;
+	margin-top: 20px;
+}
+
+div#filtrosBusqueda{
+	width: 95%;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border: 2px solid #EEE;
+}
+
+div#filtrosBusqueda table{
+  font-weight:bold;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  width: 90%;
+  margin-top: 20px;
+}
+
+div#filtrosBusqueda table td.titulo{
+	padding-bottom: 20px;
+}
+
+div#filtrosBusqueda table td.criterios{
+	color:#999;
+	font-size: 14px;
+}
+
+
+div#datosResultados table{
+  font-weight:bold;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  width: 38%;
+  margin-top: 20px;
+}
+
+div#datosResultados table tr{
+	border-bottom: 1px solid #EEE;
+}
+
+div#datosResultados table td.jornada{
+	padding-left: 5px;
+	background: #EEE;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+div#datosResultados table td.grupo{
+	padding-left: 15px;
+	background: #D3AA29;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-size: 10px;
+	color:white;
+}
+	
+div#datosResultados table td.escudo{
+	width: 10%;
+	text-align: center;
+	color:#999;
+	padding: 3px 0;	
+}
+
+div#datosResultados table td.fechaPartido{
+	width: 10%;
+	font-weight: bold;
+	color: #D3AA29;
+	font:12px Georgia, Helvetica, sans-serif;
+	text-align: center;	
+	padding: 3px 0;	
+}
+
+div#datosResultados table td.equipoJornada{
+	width: 30%;
+	text-align: center;
+	color:#999;
+	padding: 3px 0;
+	font-size: 14px;
+}
+
+div#datosResultados table td.equipoJornadaSancionado{
+	width: 30%;
+	text-align: center;
+	color: red;
+	padding: 3px 0;
+	font-size: 14px;
+}
+
+div#datosResultados table td.equipoJornadaGanador{
+	width: 40%;
+	text-align: center;
+	color:green;
+	padding: 3px 0;
+	font-weight:bold;
+	font-size: 16px;
+}
+
+div#datosResultados table td.resultadoJornada{
+	width: 20%;
+	text-align: center;
+	font-size: 14px;
+	font-weight:bold;
+	letter-spacing:1px;
+}
+
+div#datosResultados table td.leyenda{
+	font-size: 12px;
+	font-weight:bold;
+	letter-spacing:1px;
+}
+
+div#datosResultados table td.resultadoJornadaModificado{
+	width: 20%;
+	text-align: center;
+	font-size: 14px;
+	font-weight:bold;
+	letter-spacing:1px;
+	color: darkorange;
+}
+
+div#noticias {
+	width:100%;
+}
+
+div#noticias table.dentro {
+	margin-left:10px;
+	margin-right:5px;
+}
+
+div#noticias table{
+  font-weight:bold;
+  margin-bottom: 20px;
+  width: 98%;
+  margin-top: 20px;
+}
+
+div#noticias table tr {
+	width:50%;
+}
+
+div#noticias table td.ultimoTitulo{
+  color:#003366;
+  font-size: 3em !important;
+}
+
+div#noticias table td.titulo{
+	color:#003366;
+	font-size: 25px !important;
+}
+
+div#noticias table td.tituloSecundaria{
+	color:#003366;
+	font-size: 20px !important;
+}
+
+div#noticias table td.noticiasSecundarias {
+	border-left: 1px #CCC solid; 
+}
+
+div#noticias table td.cuerpo {
+  height: 20px;
+  color: black;
+  font-size: 14px !important;
+  padding-right: 5px;
+}
+
+div#noticias table td.fecha {
+  color: #727272;
+  font-size: 10px !important;
+}
+
+div#noticias table td.cuerpoDetalle {
+  height: 20px;
+  color: black;
+  font-size: 20px !important;
+  padding-right: 5px;
+}
+
+div#noticias table td.fechaDetalle {
+  color: #727272;
+  font-size: 16px !important;
+  padding-bottom: 5px; 
+  padding-top: 5px;
+}
+
+div#noticias table td.datosComentario {
+	padding-left: 5px;
+	background: #f7f7f7;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-right: 10px;
+	border-bottom: 1px solid #BBB;
+}
+
+div#noticias table td.insertarComentario {
+	padding-right: 10px;
+	width: 15%;
+}
+
+div#noticias textarea {
+  display: block;
+	width: 450px;
+	overflow: hidden;
+}
+
+.botonComentario {
+	font-size: 12px;
+	background-color:#EBEAE3;
+	color:#003;
+	text-decoration:none;
+	padding:3px 6px; 
+}
+
+div#noticias span.datosCabeceraComentario {
+	color: #777;
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	padding-right: 15px;
+	padding-left: 5px;
+}
+
+div#noticias span.cuerpoComentario {
+	font-size: 12px;
+	line-height: 16px;
+	padding-top: 10px;
+	font:12px Georgia, Helvetica, sans-serif;
+	padding-left: 3px;
+}
+
+div#noticias span.tituloCabeceraComentario {
+	font-weight: bold;
+	color: #D3AA29;
+	font:16px Georgia, Helvetica, sans-serif;
+}
+
+
+div#noticias h3{
+	border-bottom: 1px solid #CCC;
+	padding-bottom: 3px;
+	margin-right: 25px;
+	margin-left: 25px;
+}
+
+div#noticias h4{
+	border-bottom: 3px solid #C00;
+	padding-bottom: 3px;
+	color: #C00;
+	font:18px Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	margin-bottom: 15px;
+}
+
+/* Contenido */
+div#contenido {
+	float: left;
+	margin-right: 30px;
+	padding: 15px 0 15px 0;
+	width: 90%;
+}
+
+div#contenido table {
+	color: #727272;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	width: 98%;
+	margin-top: 20px;
+}
+
+div#contenido table td  {
+	border-bottom: 1px #EEE solid;
+	border-left: 1px #EEE solid;
+	height: 20px;
+	font-size: 14px !important;
+}
+	
+div#contenido table td.primero {
+	background: #6DC0F7;
+	border-left: 0;
+	border-right: 1px solid #FFF;
+	color: #FFF;
+	padding-right: 8px;
+	text-align: right;
+}
+
+div#contenido table td.posicion {
+	text-align: right;
+	padding-right: 8px;
+}
+
+div#contenido table td.segundo {
+	background: #EEDF7D;
+	border-left: 0;
+	border-right: 1px solid #FFF;
+	color: #FFF;
+	padding-right: 8px;
+	text-align: right;
+}
+
+div#contenido table td.tercero {
+	background: #DD695F;
+	border-left: 0;
+	border-right: 1px solid #FFF;
+	color: #FFF;
+	padding-right: 8px;
+	text-align: right;
+}
+
+div#contenido table td.equipos {
+	border-left: 1px #F1F1F1 solid;
+	padding-left: 15px;
+	text-align: left;
+	width:500px;
+}
+
+div#contenido table th {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #DDD;
+	align: left;
+}
+
+div#contenido table td.jugados, div#contenido table td.ganados, div#contenido table td.empatados,div#contenido table td.perdidos, div#contenido table td.afavor, div#contenido table td.encontra {
+	text-align: center !important;
+	padding: 5px 0px !important;
+	color:  #999 !important;
+	font-weight: normal;
+	width: 60px;
+}  
+
+div#contenido table td.puntos {
+	padding: 5px 5px !important;
+	color:  #000 !important;
+	background-color: #EEE;
+	border-bottom: 1px solid #DDD !important;
+}   
+
+div#contenido table td.usuario {
+	padding: 5px 0px !important;
+	color:  #000 !important;
+	background-color: #EEE;
+	border-bottom: 1px solid #DDD !important;
+}   
+
+h3.clasificacion {
+	font-size: 24px;
+	color: #666;
+	border-bottom: 1px solid #666;
+	padding-bottom: 3px;
+	margin-left: 5px;
+}
+
+div#listaNoticias{
+	width: 90%;
+	margin-top: 20px;
+}
+
+div#listaNoticias table{
+  font-weight:bold;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 10px;	
+  width: 98%;
+  margin-top: 20px;
+  color:#003366;
+	font-size: 20px;
+}
+
+div#listaNoticias table td{
+	padding-bottom: 10px;
+}
+
+div#listaNoticias table td.datosNoticia {
+	color: #777;
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	padding-right: 15px;
+	padding-left: 5px;
+}
+
+div#listaNoticias span.tituloCabeceraComentario {
+	font-weight: bold;
+	color: #D3AA29;
+	font:16px Georgia, Helvetica, sans-serif;
+}
+
+div#nuevaNoticia{
+	width: 90%;
+	margin-top: 20px;
+}
+
+div#nuevaNoticia table{
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 10px;	
+  width: 85%;
+  margin-top: 20px;
+	font-weight: bold;
+	color: #D3AA29;
+	font:12px Georgia, Helvetica, sans-serif;
+}
+
+div#nuevaNoticia table td{
+	padding-right: 10px;
+	padding-bottom: 2px;
+}
+
+div#nuevaNoticia textarea {
+  display: block;
+	width: 650px;
+	overflow: hidden;
+}
+
+div#pachanga {
+	width:100%;
+}
+
+div#pachanga table.dentro {
+	margin-left:10px;
+	margin-right:5px;
+}
+
+div#pachanga table{
+  font-weight:bold;
+  margin-bottom: 20px;
+  width: 98%;
+  margin-top: 20px;
+}
+
+div#pachanga table tr {
+	width:50%;
+}
+
+div#pachanga span.resultado{
+  color:red;
+}
+
+div#pachanga table td.equipo{
+  color:#003366;
+  font-size: 3em !important;
+}
+
+div#pachanga table td.titulo{
+	color:#003366;
+	font-size: 25px !important;
+}
+
+div#pachanga table td.tituloSecundaria{
+	color:#003366;
+	font-size: 20px !important;
+}
+
+div#pachanga table td.noticiasSecundarias {
+	border-left: 1px #CCC solid; 
+}
+
+div#pachanga table td.cuerpo {
+  height: 20px;
+  color: black;
+  font-size: 14px !important;
+  padding-right: 5px;
+}
+
+div#pachanga table td.fecha {
+  color: #727272;
+  font-size: 10px !important;
+}
+
+div#pachanga table td.cuerpoDetalle {
+  height: 20px;
+  color: black;
+  font-size: 20px !important;
+  padding-right: 5px;
+}
+
+div#pachanga table td.fechaDetalle {
+  color: #727272;
+  font-size: 16px !important;
+  padding-bottom: 5px; 
+  padding-top: 5px;
+}
+
+div#pachanga table td.datosComentario {
+	padding-left: 5px;
+	background: #f7f7f7;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-right: 10px;
+	border-bottom: 1px solid #BBB;
+}
+
+div#pachanga table td.insertarComentario {
+	padding-right: 10px;
+	width: 15%;
+}
+
+div#pachanga textarea {
+  display: block;
+	width: 450px;
+	overflow: hidden;
+}
+
+table.sample {
+	border-width: 1px 1px 1px 1px;
+	border-spacing: 2px;
+	border-style: outset outset outset outset;
+	border-color: gray gray gray gray;
+	border-collapse: separate;
+	background-color: white;
+}
+table.sample th {
+	border-width: 1px 1px 1px 1px;
+	padding: 1px 1px 1px 1px;
+	border-style: inset inset inset inset;
+	border-color: gray gray gray gray;
+	background-color: white;
+	-moz-border-radius: 0px 0px 0px 0px;
+}
+table.sample td {
+	border-width: 1px 1px 1px 1px;
+	padding: 1px 1px 1px 1px;
+	border-style: inset inset inset inset;
+	border-color: gray gray gray gray;
+	background-color: white;
+	-moz-border-radius: 0px 0px 0px 0px;
+}
+

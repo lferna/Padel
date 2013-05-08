@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+  
+  <!-- Servlets -->
+  <servlet>
+		<servlet-name>ServletLogin</servlet-name>
+		<servlet-class>padel.servlet.ServletLogin</servlet-class>
+  </servlet>
+  <servlet>
+		<servlet-name>ServletEquipo</servlet-name>
+		<servlet-class>padel.servlet.ServletEquipo</servlet-class>
+  </servlet>
+    <servlet>
+		<servlet-name>ServletJugador</servlet-name>
+		<servlet-class>padel.servlet.ServletJugador</servlet-class>
+  </servlet>
+  <servlet>
+		<servlet-name>ServletTorneo</servlet-name>
+		<servlet-class>padel.servlet.ServletTorneo</servlet-class>
+  </servlet>  
+  <servlet>
+		<servlet-name>ServletPartido</servlet-name>
+		<servlet-class>padel.servlet.ServletPartido</servlet-class>
+  </servlet>
+  <servlet>
+		<servlet-name>ServletResultado</servlet-name>
+		<servlet-class>padel.servlet.ServletResultado</servlet-class>
+  </servlet>
+  <servlet>
+		<servlet-name>ServletComentario</servlet-name>
+		<servlet-class>padel.servlet.ServletComentario</servlet-class>
+  </servlet>
+    
+    <servlet-mapping>
+		<servlet-name>ServletLogin</servlet-name>
+		<url-pattern>/ServletLogin</url-pattern>
+	</servlet-mapping>
+    <servlet-mapping>
+		<servlet-name>ServletEquipo</servlet-name>
+		<url-pattern>/ServletEquipo</url-pattern>
+	</servlet-mapping>
+	    <servlet-mapping>
+		<servlet-name>ServletJugador</servlet-name>
+		<url-pattern>/ServletJugador</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ServletTorneo</servlet-name>
+		<url-pattern>/ServletTorneo</url-pattern>
+	</servlet-mapping>
+    <servlet-mapping>
+		<servlet-name>ServletPartido</servlet-name>
+		<url-pattern>/ServletPartido</url-pattern>
+	</servlet-mapping>
+    <servlet-mapping>
+		<servlet-name>ServletResultado</servlet-name>
+		<url-pattern>/ServletResultado</url-pattern>
+	</servlet-mapping>
+    <servlet-mapping>
+		<servlet-name>ServletComentario</servlet-name>
+		<url-pattern>/ServletComentario</url-pattern>
+	</servlet-mapping>  
+  <!-- Default page to serve -->
+  <welcome-file-list>
+  	 <welcome-file>ServletLogin</welcome-file>
+  </welcome-file-list>
+
+</web-app>

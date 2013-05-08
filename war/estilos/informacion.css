@@ -1,0 +1,87 @@
+/* Root = Horizontal, Secondary = Vertical */
+
+.partidos{
+	font-size: 11px;
+	font-weight:bold;
+}
+
+div#contenidoInformacion {
+	width:100%;
+	background-color:white;
+  border-right-color: #CCC;
+  border-left-color: #CCC;
+}
+/* Resultados */
+
+div#resultados h2#ultimosResultados {
+	height: 35px;
+	background: url('../Imagenes/tit_resultados.gif') no-repeat;
+}
+
+div#resultados h2#proximosPartidos {
+	height: 35px;
+	background: url('../Imagenes/tit_partidos.gif') no-repeat;
+}
+
+div#resultados h2#clasificacion {
+	height: 35px;
+	background: url('../Imagenes/tit_clasificacion.gif') no-repeat;
+}
+
+div#resultados h2 span {
+	position: absolute;
+	top: -10000px;
+}
+div#resultados table {
+	width:100%;
+	clear: both;
+	
+}
+
+
+div#resultados table tr.finalizado, div#resultados table tr.clasificacion{
+	background-color:#fff;
+	border-bottom: 1px solid #EEE;
+	}
+div#resultados table td.finalizado, div#resultados table td.enjuego2, div#resultados table td.sincomenzar{
+	font-size: 0.9em;
+	}	
+
+div#resultados table tr.finalizado td p,div#resultados table tr.clasificacion td p {
+	
+		font-size: 11px;
+		font-weight:bold;
+		letter-spacing:1px;
+	
+	}
+	
+div#resultados table tr.finalizado td.local,div#resultados table tr.finalizado td.visitante{
+	color:#999;
+padding: 3px 0;
+font-size: 11px;
+	}	
+	
+	div#resultados table tr.clasificacion td.equipo{
+		color:#999;
+		padding: 3px 0;
+		font-size: 11px;
+		text-align:left;		
+	}	
+
+div#resultados table tr td a {
+	color: #003366;
+}
+div#resultados table tr td.local, div#resultados table tr td.visitante {
+	width: 37%;
+}
+div#resultados table caption {
+	text-align: left;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #C30;
+	padding-bottom: 3px;
+}
+div#resultados table th {
+	position: absolute;
+	top: -10000px;
+}
